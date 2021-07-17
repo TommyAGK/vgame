@@ -1,10 +1,10 @@
 package fsm_test
 
 import (
-	"fsm"
 	"testing"
 
 	"github.com/stretchr/testify/require"
+	fsm "github.com/tommyagk/vgame/src/fsm"
 )
 
 func TestSettingInitialState(t *testing.T) {
