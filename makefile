@@ -1,8 +1,9 @@
 all: 
 	test vet fmt lint build
 test:
-	go test ./vgame_tests
-	go test ./fsm_tests
+	go test ./tests/vgame_tests/
+	go test ./tests/fsm_tests/
+
 
 vet: 
 	go vet ./...
