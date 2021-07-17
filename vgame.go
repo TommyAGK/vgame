@@ -1,9 +1,9 @@
-package main
+package vgame
 
 func main() {
 
 }
 
-func game_loop() error {
-
+func Game_loop() bool {
+	return true
 }
