@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	fsm "github.com/tommyagk/vgame/src/fsm"
+	fsm "github.com/tommyagk/vgame/fsm"
 )
 
 func TestSettingInitialState(t *testing.T) {

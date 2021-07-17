@@ -15,4 +15,4 @@ lint:
 #go list ./... | grep -v /vendor/ | xargs -L1 golint -set_exit_status
 
 build:
-	go build -o bin/vgame ./src/vgame.go
+	go build -o bin/vgame ./main.go
