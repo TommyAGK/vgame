@@ -2,6 +2,7 @@ all:
 	test vet fmt lint build
 test:
 	go test ./vgame_tests
+	go test ./fsm_tests
 
 vet: 
 	go vet ./...
